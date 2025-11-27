@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pontos Turísticos de São José dos Campos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="acessivel.css">
+</head>
+<body>
+  <header>
+    <h1>Pontos turísticos de São José dos Campos:</h1>
+    <p>Explore alguns dos lugares mais marcantes da cidade.</p>
+  </header>
+
+  <main>
+    <section class="attraction" id="santos-dumont">
+      <h2>Parque Santos Dumont</h2>
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/4b/4b/34/lagos.jpg?w=900&h=-1&s=1" alt="Vista do Parque Santos Dumont com jardim japonês e réplicas de aviões">
+      <p id="text-santos">
+        Parque com mais de 46.000 metros quadrados, playground, pista de caminhada, jardim japonês, lago, réplicas de 14-Bis e outros aviões.
+      </p>
+      <button class="read-btn" onclick="readText('text-santos')">🔊 Ouvir</button>
+    </section>
+
+    <section class="attraction" id="vicentina-aranha">
+      <h2>Parque Vicentina Aranha</h2>
+      <img src="https://praturista.com/wp-content/uploads/2019/06/sao-jose-dos-campos-sp-praturista-0003500-7-DeA.jpg" alt="Área verde com palmeiras e bela vegetação no Parque Vicentina Aranha">
+      <p id="text-vicentina">
+        Parque de 84 mil metros quadrados com trilhas, lagos, jardins, áreas para piquenique, arquitetura histórica e eventos culturais.
+      </p>
+      <button class="read-btn" onclick="readText('text-vicentina')">🔊 Ouvir</button>
+    </section>
+
+    <section class="attraction" id="mirante-banhado">
+      <h2>Mirante do Banhado</h2>
+      <img src="https://www.refugiosnointerior.com.br/sistema/_lib/file/img/lugar/516/banhadodestaque(2).webp" alt="Vista panorâmica do Banhado a partir do Mirante do Banhado">
+      <p id="text-banhado">
+        Mirante com vista panorâmica do Banhado, ideal para apreciar o pôr do sol e fotografar a natureza.
+      </p>
+      <button class="read-btn" onclick="readText('text-banhado')">🔊 Ouvir</button>
+    </section>
+
+    <section class="attraction" id="praça-ulisses">
+      <h2>Praça Ulisses Guimarães</h2>
+      <img src="https://informa.life/wp-content/webp-express/webp-images/uploads/2022/01/Revista-Aquarius-Life-137-praca-ulisses-guimaraes.jpg.webp" alt="Jardins e monumentos na Praça Ulisses Guimarães">
+      <p id="text-ulisses">
+        Praça charmosa e acolhedora no centro da cidade, com jardins cuidados e monumentos — um ótimo espaço de convívio.
+      </p>
+      <button class="read-btn" onclick="readText('text-ulisses')">🔊 Ouvir</button>
+    </section>
+
+    <section class="attraction" id="museu-sacre">
+      <h2>Museu de Arte Sacra</h2>
+      <img src="https://www.sjc.sp.gov.br/media/mobkcdlu/1-1-capela-nossa-senhora-aparecida-travessa-chico-luiz-67-centro.jpg?width=940&height=627&v=1dbfbb000f677d0" alt="Interior do Museu de Arte Sacra exibindo peças religiosas">
+      <p id="text-museu">
+        Museu instalado na Capela Nossa Senhora Aparecida, com acervo de peças sacras dos séculos dezoito ao vinte produzidas por artistas da região.
+      </p>
+      <button class="read-btn" onclick="readText('text-museu')">🔊 Ouvir</button>
+    </section>
+
+    <button class="toggle-btn" onclick="toggleHighContrast()">Ativar alto contraste</button>
+  </main>
+
+  <footer>
+    <p>Desenvolvido com atenção à acessibilidade: textos claros, imagens com <em>alt</em>, foco visível nos botões, estrutura semântica.</p>
+  </footer>
+
+  <script src="acessivel.js"></script>
+</body>
+</html>
